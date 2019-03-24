@@ -9,6 +9,13 @@ export class AppComponent  {
   name = 'Angular';
 
   onAskrButtonClicked() {
+    let buttonNode = document.querySelector(".askrToggleButton");
+    let buttonElement = (buttonNode as HTMLElement);
+    if (buttonElement.style.backgroundColor != 'grey') {
+      buttonElement.style.backgroundColor = 'grey';
+    } else {
+      buttonElement.style.backgroundColor = 'gold';
+    }
     let nodes = document.querySelectorAll(".askr");
     for (let node of nodes) {
       let hero = (node as HTMLElement);
@@ -21,6 +28,13 @@ export class AppComponent  {
   }
 
   onSeasonalButtonClicked() {
+    let buttonNode = document.querySelector(".seasonalToggleButton");
+    let buttonElement = (buttonNode as HTMLElement);
+    if (buttonElement.style.backgroundColor != 'grey') {
+      buttonElement.style.backgroundColor = 'grey';
+    } else {
+      buttonElement.style.backgroundColor = 'gold';
+    }
     let nodes = document.querySelectorAll(".seasonal");
     for (let node of nodes) {
       let hero = (node as HTMLElement);
@@ -33,6 +47,13 @@ export class AppComponent  {
   }
 
   onGrailButtonClicked() {
+    let buttonNode = document.querySelector(".grailToggleButton");
+    let buttonElement = (buttonNode as HTMLElement);
+    if (buttonElement.style.backgroundColor != 'grey') {
+      buttonElement.style.backgroundColor = 'grey';
+    } else {
+      buttonElement.style.backgroundColor = 'gold';
+    }
     let nodes = document.querySelectorAll(".grail");
     for (let node of nodes) {
       let hero = (node as HTMLElement);
@@ -45,6 +66,13 @@ export class AppComponent  {
   }
 
   onLegendaryButtonClicked() {
+    let buttonNode = document.querySelector(".legendaryToggleButton");
+    let buttonElement = (buttonNode as HTMLElement);
+    if (buttonElement.style.backgroundColor != 'grey') {
+      buttonElement.style.backgroundColor = 'grey';
+    } else {
+      buttonElement.style.backgroundColor = 'gold';
+    }
     let nodes = document.querySelectorAll(".legendary");
     for (let node of nodes) {
       let hero = (node as HTMLElement);
@@ -57,6 +85,13 @@ export class AppComponent  {
   }
 
   onGoldButtonClicked() {
+    let buttonNode = document.querySelector(".goldToggleButton");
+    let buttonElement = (buttonNode as HTMLElement);
+    if (buttonElement.style.backgroundColor != 'grey') {
+      buttonElement.style.backgroundColor = 'grey';
+    } else {
+      buttonElement.style.backgroundColor = 'gold';
+    }
     let nodes = document.querySelectorAll(".gold");
     for (let node of nodes) {
       let hero = (node as HTMLElement);
@@ -69,6 +104,13 @@ export class AppComponent  {
   }
 
   onSilverButtonClicked() {
+    let buttonNode = document.querySelector(".silverToggleButton");
+    let buttonElement = (buttonNode as HTMLElement);
+    if (buttonElement.style.backgroundColor != 'grey') {
+      buttonElement.style.backgroundColor = 'grey';
+    } else {
+      buttonElement.style.backgroundColor = 'gold';
+    }
     let nodes = document.querySelectorAll(".silver");
     for (let node of nodes) {
       let hero = (node as HTMLElement);
@@ -81,6 +123,13 @@ export class AppComponent  {
   }
 
   onBronzeButtonClicked() {
+    let buttonNode = document.querySelector(".bronzeToggleButton");
+    let buttonElement = (buttonNode as HTMLElement);
+    if (buttonElement.style.backgroundColor != 'grey') {
+      buttonElement.style.backgroundColor = 'grey';
+    } else {
+      buttonElement.style.backgroundColor = 'gold';
+    }
     let nodes = document.querySelectorAll(".bronze");
     for (let node of nodes) {
       let hero = (node as HTMLElement);
