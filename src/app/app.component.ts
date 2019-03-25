@@ -1877,7 +1877,7 @@ export class Eliwood{}
 
 @Component({
   selector: 'EliwoodValentines',
-  template: `<span class="seasonal" style="display:inline-block;position:relative;">
+  template: `<span class="grail" style="display:inline-block;position:relative;">
 	<span style="position:absolute;left:4px;top:4px;padding:0;">
 	<a href="https://feheroes.gamepedia.com/Eliwood:_Devoted_Love" title="Eliwood: Devoted Love"><img alt="Eliwood Devoted Love Face FC.png" width="79" height="79" srcset="https://c-3sux78kvnkay76x24mgskvkjogx2eiax78ykijtx2eius.g00.gamepedia.com/g00/3_c-3lknkx78uky.mgskvkjog.ius_/c-3SUXKVNKAY76x24nzzvyx3ax2fx2fmgskvkjog.iax78ykijt.iusx2flknkx78uky_mgskvkjog_ktx2fznashx2f6x2f6kx2fKrocuuj_Jkbuzkj_Rubk_Lgik_LI.vtmx2f775vd-Krocuuj_Jkbuzkj_Rubk_Lgik_LI.vtmx3fbkx78youtx3d2j7i6216k9011674l5l542h759l6i100x26o76i.sgx78qx3dosgmk_$/$/$/$/$/$/$ 1.5x, https://c-3sux78kvnkay76x24mgskvkjogx2eiax78ykijtx2eius.g00.gamepedia.com/g00/3_c-3lknkx78uky.mgskvkjog.ius_/c-3SUXKVNKAY76x24nzzvyx3ax2fx2fmgskvkjog.iax78ykijt.iusx2flknkx78uky_mgskvkjog_ktx2f6x2f6kx2fKrocuuj_Jkbuzkj_Rubk_Lgik_LI.vtmx3fbkx78youtx3d2j7i6216k9011674l5l542h759l6i100x26o76i.sgx78qx3dosgmk_$/$/$/$/$ 2x" x-enc="srcset src" src="https://c-3sux78kvnkay76x24mgskvkjogx2eiax78ykijtx2eius.g00.gamepedia.com/g00/3_c-3lknkx78uky.mgskvkjog.ius_/c-3SUXKVNKAY76x24nzzvyx3ax2fx2fmgskvkjog.iax78ykijt.iusx2flknkx78uky_mgskvkjog_ktx2fznashx2f6x2f6kx2fKrocuuj_Jkbuzkj_Rubk_Lgik_LI.vtmx2f35vd-Krocuuj_Jkbuzkj_Rubk_Lgik_LI.vtmx3fbkx78youtx3d2j7i6216k9011674l5l542h759l6i100x26o76i.sgx78qx3dosgmk_$/$/$/$/$/$/$"></a></span>
 	<span style="position:absolute;left:0px;top:0px;padding:0;">
